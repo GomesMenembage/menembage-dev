@@ -1,0 +1,40 @@
+
+**Lourenço Cardoso** — Dev Mobile, Horizon DEV
+
+"Já trabalhei com vários backends na minha carreira, mas poucos têm o nível de raciocínio que ele demonstra. Quando o meu lado mobile precisa de dados, estão sempre organizados, rápidos e consistentes. É o tipo de profissional que faz o seu trabalho parecer fácil porque o dele está impecável."
+
+---
+
+**Paulo Sanguli** — Dev Backend, Horizon DEV
+
+"Como dev backend eu sei o que é difícil nessa área — e ele resolve bem o que já é complexo, e ainda vai além. A forma como ele estrutura bancos de dados é algo que me fez aprender bastante. Não é só técnica, é visão. Sabe exatamente onde cada dado deve estar e porquê."
+
+---
+
+**João Mendes** — Gestor de Projetos, Coordenador NTC
+
+"Do ponto de vista de gestão, ter um backend e DBA como ele no projeto é uma tranquilidade enorme. Nunca tivemos problemas de performance ou perda de dados. Ele antecipa os problemas antes que eles cheguem à reunião. Isso vale ouro numa equipe."
+
+---
+
+**Sílvio Thone** — Engenheiro de Telecom, Mentor CAF NTC
+
+"O que me chama atenção nele é que não fica preso às soluções convencionais. Na parte de banco de dados especialmente, ele pensa na arquitetura de um jeito que poucos jovens devs pensam. Tem maturidade técnica acima da média."
+
+---
+
+**António Gabriel** — Engenheiro de Software, Overlabs · Mentor CAF NTC
+
+"Dados nas mãos dele estão seguros. Ele entende o ciclo completo — desde a modelagem do banco até a API que entrega a informação — e isso faz uma diferença brutal no produto final. É raro encontrar alguém que domina backend e banco de dados com essa profundidade."
+
+---
+
+**Omar Rodrigues** — Dev Backend, CAF NTC
+
+"Trabalhamos lado a lado no backend e aprendi muito observando a forma como ele organiza as queries e pensa na estrutura do banco. Não é alguém que apenas faz funcionar — é alguém que faz funcionar bem, com consistência e escalabilidade em mente desde o início."
+
+---
+
+**João Tambue** — Dev Frontend, CAF NTC
+
+"Do frontend eu dependia muito dele para integrar as APIs, e posso dizer que era sempre uma experiência sem dor de cabeça. Documentação clara, respostas consistentes, dados bem estruturados. Ele é o tipo de backend que todo desenvolvedor frontend sonha em ter do outro lado."

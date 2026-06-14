@@ -1,0 +1,81 @@
+Metanoia Academy
+
+Plataforma de recomendação de mentores
+
+Tecnologias:
+Django, PostgreSQL 
+
+Funcionalidades:
+IA
+Pesquisa semântica
+
+CAF - INTELLILEARN
+
+plataforma de apoio estudantil para o colégio árvore da felicidade 
+
+Tecnologias:
+Python, Django, PostgreSQL, redis
+
+Funcionalidades:
+Geração de PDFs
+Chat de SMS
+Compilador embutido 
+Bot inteligente
+
+
+Tell me anything
+
+Gerador de trabalhos académicos com IA
+
+Tecnologias:
+Python, PostgreSQL 
+
+Funcionalidades:
+Pesquisa semântica 
+Formatação de texto
+
+
+Plagistic 
+
+Sistema ETL de detecção de plágios em documentos 
+
+Tecnologias:
+
+Python, fastapi, mongodb
+
+Funcionalidades 
+
+Extração de texto formatado para texto puro
+ETL
+Envio de relatórios 
+Integração com IA
+
+DoaSó
+
+Plataforma de gestão de doações
+
+Tecnologias:
+
+Python, fastapi, PostgreSQL 
+
+Funcionalidades:
+Notificações 
+Rate limiting 
+Arquitetura modular
+Replicação de dB
+
+Faça um texto para descrição de projeto no portfólio do seguinte projeto:
+
+Agiliza
+
+Plataforma de apoio a mamãs lavadeiras
+
+Tecnologias:
+Nodejs, Typescript, express PostgreSQL
+
+Funcionalidades:
+
+Autenticação 
+Rate limiting
+Chamadas na aplicação 
+Notificações

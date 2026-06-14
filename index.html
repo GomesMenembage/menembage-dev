@@ -1,0 +1,1529 @@
+<div class="export-wrapper">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=Geist:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Shantell+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <html>
+    <head>
+      <link rel="stylesheet" href="styles.css" />
+      <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
+      </head>
+    <body>
+      <div
+        class="bg-background"
+        style="min-height: 100%"
+        data-component="@screens/Portfolio.jsx"
+      >
+        <nav
+          class="bg-background flex items-center justify-between px-16 py-5 border-bottom-nav nav-sticky"
+          data-component="@components/NavBar.jsx"
+        >
+          <a href="#hero" class="nav-logo-link">
+            <span class="font-headings text-foreground nav-logo"
+              ><span data-file="/components/NavBar.jsx" data-idx="0">menembage</span
+              ><span class="text-primary nav-logo-dot">-DEV</span></span
+            >
+          </a>
+          <div class="nav-desktop">
+            <div class="flex items-center gap-8">
+              <a href="#sobre"
+                class="font-body text-muted-foreground nav-link"
+                data-media-type="banani-button"
+                ><span data-file="/components/NavBar.jsx" data-idx="1"
+                  >Sobre</span
+                ></a
+              ><a href="#stack"
+                class="font-body text-muted-foreground nav-link"
+                data-media-type="banani-button"
+                ><span data-file="/components/NavBar.jsx" data-idx="2"
+                  >Stack</span
+                ></a
+              ><a href="#processos"
+                class="font-body text-muted-foreground nav-link"
+                data-media-type="banani-button"
+                ><span data-file="/components/NavBar.jsx" data-idx="3"
+                  >Processos</span
+                ></a
+              ><a href="#projetos"
+                class="font-body text-muted-foreground nav-link"
+                data-media-type="banani-button"
+                ><span data-file="/components/NavBar.jsx" data-idx="4"
+                  >Projetos</span
+                ></a
+              ><a href="#experiencia"
+                class="font-body text-muted-foreground nav-link"
+                data-media-type="banani-button"
+                ><span data-file="/components/NavBar.jsx" data-idx="5"
+                  >Experiência</span
+                ></a
+              ><a href="#servicos"
+                class="font-body text-muted-foreground nav-link"
+                data-media-type="banani-button"
+                ><span data-file="/components/NavBar.jsx" data-idx="6"
+                  >Serviços</span
+                ></a
+              ><a href="#contato"
+                class="font-body text-muted-foreground nav-link"
+                data-media-type="banani-button"
+                ><span data-file="/components/NavBar.jsx" data-idx="7"
+                  >Contato</span
+                ></a
+              >
+            </div>
+            <button
+              class="font-body font-medium px-4 py-2 rounded-md nav-btn"
+              data-media-type="banani-button"
+            >
+              <span data-file="/components/NavBar.jsx" data-idx="6">Fale comigo</span>
+            </button>
+          </div>
+          <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav-mobile" id="navMobile">
+            <div class="nav-mobile-inner">
+              <a href="#sobre" class="nav-link nav-mobile-link">Sobre</a>
+              <a href="#stack" class="nav-link nav-mobile-link">Stack</a>
+              <a href="#processos" class="nav-link nav-mobile-link">Processos</a>
+              <a href="#projetos" class="nav-link nav-mobile-link">Projetos</a>
+              <a href="#experiencia" class="nav-link nav-mobile-link">Experiência</a>
+              <a href="#servicos" class="nav-link nav-mobile-link">Serviços</a>
+              <a href="#contato" class="nav-link nav-mobile-link">Contato</a>
+              <button class="font-body font-medium px-4 py-2 rounded-md nav-btn nav-mobile-btn">Fale comigo</button>
+            </div>
+          </div>
+        </nav>
+        <section
+          id="hero"
+          class="relative bg-background overflow-hidden hero-section"
+          data-component="@components/HeroSection.jsx"
+        >
+          <div class="absolute inset-0 dotted-grid"></div>
+          <div class="absolute inset-0 vignette-overlay"></div>
+          <div class="hero-glow-orb"></div>
+          <div class="relative z-10 w-full max-w-5xl mx-auto px-16 py-32">
+            <div class="flex flex-col gap-6">
+              <span
+                class="text-accent font-body text-mono tracking-widest uppercase hero-label"
+                data-reveal data-reveal-delay="1"
+                ><span data-file="/components/HeroSection.jsx" data-idx="0"
+                  ><span class="typewriter-text">// desenvolvedor backend &amp; dba</span><span class="typewriter-cursor">|</span></span
+                ></span
+              >
+              <h1
+                class="font-headings text-foreground leading-none hero-title"
+                data-reveal data-reveal-delay="2"
+              >
+                <span data-file="/components/HeroSection.jsx" data-idx="1"
+                  >Gomes <span class="hero-title-accent">Menembage</span></span
+                >
+              </h1>
+              <p
+                class="font-body text-muted-foreground hero-subtitle"
+                data-reveal data-reveal-delay="3"
+              >
+                <span data-file="/components/HeroSection.jsx" data-idx="2"
+                  >Construo os sistemas que impulsionam o produto</span
+                ><span
+                  class="text-accent ml-1 cursor-blink"
+                  >_</span
+                >
+              </p>
+              <p
+                class="font-body text-muted-foreground hero-description"
+                data-reveal data-reveal-delay="3"
+              >
+                <span data-file="/components/HeroSection.jsx" data-idx="2"
+                  >APIs de alto desempenho, bancos de dados sob medida e arquitetura backend que escala — tudo pensado para transformar requisitos em soluções sólidas.</span
+                >
+              </p>
+              <div class="flex gap-4 mt-4" data-reveal data-reveal-delay="4">
+                <button
+                  class="bg-primary text-primary-foreground font-body font-medium px-6 py-3 rounded-md btn-primary-sm"
+                  data-media-type="banani-button"
+                >
+                  <span data-file="/components/HeroSection.jsx" data-idx="3"
+                    >Veja meu trabalho</span
+                  ></button
+                ><button
+                  class="font-body font-medium px-6 py-3 rounded-md text-foreground btn-secondary"
+                  data-media-type="banani-button"
+                >
+                  <span data-file="/components/HeroSection.jsx" data-idx="4"
+                    >Baixar CV</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="scroll-indicator">
+            <span class="scroll-indicator-text">role para explorar</span>
+            <div class="scroll-indicator-line"></div>
+          </div>
+        </section>
+        <section
+          id="sobre"
+          class="bg-background py-28 px-16 about-section"
+          data-component="@components/AboutSection.jsx"
+        >
+          <div class="about-grid-bg"></div>
+          <div class="max-w-5xl mx-auto relative z-10">
+            <div class="flex gap-16 items-start">
+              <div class="flex-1 flex flex-col gap-8">
+                <div class="flex flex-col gap-3">
+                  <span class="text-accent section-label" data-reveal data-reveal-delay="1"
+                    ><span data-file="/components/AboutSection.jsx" data-idx="0"
+                      >// 01 sobre</span
+                    ></span
+                  >
+                  <h2 class="font-headings text-foreground section-title section-title-leading" data-reveal data-reveal-delay="2">
+                    <span data-file="/components/AboutSection.jsx" data-idx="1"
+                      >Quem sou</span
+                    >
+                  </h2>
+                </div>
+                <div class="flex flex-col gap-4">
+                  <p class="font-body text-muted-foreground about-text" data-reveal data-reveal-delay="3">
+                    <span data-file="/components/AboutSection.jsx" data-idx="2"
+                      >Especializo-me na construção de <span class="text-highlight">sistemas backend</span> robustos e
+                      na gestão de <span class="text-highlight">infraestrutura de dados</span> em escala.</span
+                    >
+                  </p>
+                  <p class="font-body text-muted-foreground about-text" data-reveal data-reveal-delay="4">
+                    <span data-file="/components/AboutSection.jsx" data-idx="3"
+                      >Meu trabalho vive em <span class="text-highlight">APIs</span>, <span class="text-highlight">bancos de dados</span> e nas camadas
+                      invisíveis que tornam os produtos confiáveis.</span
+                    >
+                  </p>
+                  <p class="font-body text-muted-foreground about-text" data-reveal data-reveal-delay="5">
+                    <span data-file="/components/AboutSection.jsx" data-idx="4"
+                      >Preocupo-me com <span class="text-highlight">desempenho</span>, <span class="text-highlight">arquitetura limpa</span> e sistemas
+                      fáceis de manter.</span
+                    >
+                  </p>
+                </div>
+                <div class="flex gap-8" data-reveal data-reveal-delay="5">
+                  <div class="stat-block">
+                    <span class="stat-number font-headings text-foreground" data-count="2">0</span>
+                    <span class="font-body text-muted-foreground text-sm">Anos de experiência</span>
+                  </div>
+                  <div class="stat-block">
+                    <span class="stat-number font-headings text-foreground" data-count="10">0</span>
+                    <span class="font-body text-muted-foreground text-sm">Projetos concluídos</span>
+                  </div>
+                  <div class="stat-block">
+                    <span class="stat-number font-headings text-foreground" data-count="8">0</span>
+                    <span class="font-body text-muted-foreground text-sm">Tecnologias dominadas</span>
+                  </div>
+                </div>
+                <div class="about-focus" data-reveal data-reveal-delay="6">
+                  <span class="about-focus-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Foco atual</span>
+                  <div class="about-focus-tags">
+                    <span class="focus-tag">APIs REST</span>
+                    <span class="focus-tag">Performance Tuning</span>
+                    <span class="focus-tag">Databases</span>
+                    <span class="focus-tag">FastAPI</span>
+                  </div>
+                </div>
+              </div>
+              <div class="flex-shrink-0 about-side">
+                <div class="relative about-avatar-group">
+                  <div class="absolute inset-0 rounded-full avatar-glow avatar-glow-pulse"></div>
+                  <div class="rounded-full overflow-hidden relative avatar-frame avatar-float">
+                    <img
+                      src="me/me.jpeg"
+                      class="w-full h-full object-cover"
+                      data-component="@globalComponents/UserAvatar.jsx"
+                    />
+                  </div>
+                </div>
+                <div class="terminal-card" data-reveal data-reveal-delay="4">
+                  <div class="terminal-header">
+                    <span class="terminal-dot" style="background: #ef4444"></span>
+                    <span class="terminal-dot" style="background: #eab308"></span>
+                    <span class="terminal-dot" style="background: #22c55e"></span>
+                    <span class="terminal-title">about.sh</span>
+                  </div>
+                  <div class="terminal-body">
+                    <span class="terminal-line"><span class="terminal-key">const</span> <span class="terminal-var">dev</span> = {</span>
+                    <span class="terminal-line indent-1"><span class="terminal-prop">name</span>: <span class="terminal-string">"Gomes Menembage"</span>,</span>
+                    <span class="terminal-line indent-1"><span class="terminal-prop">role</span>: <span class="terminal-string">"Backend Developer"</span>,</span>
+                    <span class="terminal-line indent-1"><span class="terminal-prop">exp</span>: <span class="terminal-num">2</span><span class="terminal-prop">y</span>,</span>
+                    <span class="terminal-line indent-1"><span class="terminal-prop">stack</span>: [<span class="terminal-string">"Node"</span>, <span class="terminal-string">"Python"</span>, <span class="terminal-string">"SQL"</span>],</span>
+                    <span class="terminal-line">};</span>
+                    <span class="terminal-line terminal-cursor"><span class="terminal-key">console</span>.<span class="terminal-method">log</span>(dev.<span class="terminal-prop">role</span>); <span class="terminal-comment">// Backend Developer</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="stack"
+          class="bg-background py-28 px-16 border-top-section"
+          data-reveal
+          data-component="@components/SkillsSection.jsx"
+        >
+          <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col gap-12">
+              <div class="flex flex-col gap-3">
+                <span class="text-accent section-label" data-reveal data-reveal-delay="1"
+                  ><span data-file="/components/SkillsSection.jsx" data-idx="4"
+                    >// 02 stack</span
+                  ></span
+                >
+                <h2 class="font-headings text-foreground section-title" data-reveal data-reveal-delay="2">
+                  <span data-file="/components/SkillsSection.jsx" data-idx="5"
+                    >Tecnologias com que trabalho</span
+                  >
+                </h2>
+              </div>
+              <div class="skills-grid">
+                <div class="skill-category-card" data-reveal data-reveal-delay="3">
+                  <div class="skill-category-header">
+                    <span class="skill-category-icon">⌨</span>
+                    <span class="font-body text-muted-foreground category-label"
+                      ><span data-file="/components/SkillsSection.jsx" data-idx="0">Linguagens</span></span
+                    >
+                    <span class="skill-count">2</span>
+                  </div>
+                  <div class="flex flex-wrap gap-3">
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:typescript-icon" width="18" height="18"></iconify-icon></span>
+                        <span>TypeScript</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 90%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:python" width="18" height="18"></iconify-icon></span>
+                        <span>Python</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 85%"></div></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-category-card" data-reveal data-reveal-delay="4">
+                  <div class="skill-category-header">
+                    <span class="skill-category-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
+                    <span class="font-body text-muted-foreground category-label"
+                      ><span data-file="/components/SkillsSection.jsx" data-idx="1">Frameworks</span></span
+                    >
+                    <span class="skill-count">3</span>
+                  </div>
+                  <div class="flex flex-wrap gap-3">
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:django-icon" width="18" height="18"></iconify-icon></span>
+                        <span>Django</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 80%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:fastapi" width="18" height="18"></iconify-icon></span>
+                        <span>FastAPI</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 88%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><svg width="18" height="18" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="3" fill="#1A1A1A"></rect><path d="M4 20.5c3.5-7 10-9 14.5-5.5M23.5 11.5c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5M4 16c0 0 4-1 6 2" stroke="#F4F4F5" stroke-width="1.5" stroke-linecap="round"></path><text x="4" y="22" font-family="sans-serif" font-size="8" fill="#F4F4F5">express</text></svg></span>
+                        <span>Express</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 70%"></div></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-category-card" data-reveal data-reveal-delay="5">
+                  <div class="skill-category-header">
+                    <span class="skill-category-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></span>
+                    <span class="font-body text-muted-foreground category-label"
+                      ><span data-file="/components/SkillsSection.jsx" data-idx="2">Bancos de Dados</span></span
+                    >
+                    <span class="skill-count">3</span>
+                  </div>
+                  <div class="flex flex-wrap gap-3">
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:postgresql" width="18" height="18"></iconify-icon></span>
+                        <span>PostgreSQL</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 92%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:mysql" width="18" height="18"></iconify-icon></span>
+                        <span>MySQL</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 78%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><svg width="18" height="18" viewBox="0 0 32 32" fill="none"><path d="M16 3c0 0-7 8-7 15 0 3.866 3.134 7 7 7s7-3.134 7-7C23 11 16 3 16 3z" fill="#13AA52"></path><path d="M16 3v22" stroke="#fff" stroke-width="1" opacity="0.4"></path></svg></span>
+                        <span>MongoDB</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 72%"></div></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-category-card" data-reveal data-reveal-delay="6">
+                  <div class="skill-category-header">
+                    <span class="skill-category-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+                    <span class="font-body text-muted-foreground category-label"
+                      ><span data-file="/components/SkillsSection.jsx" data-idx="3">Ferramentas</span></span
+                    >
+                    <span class="skill-count">4</span>
+                  </div>
+                  <div class="flex flex-wrap gap-3">
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:redis" width="18" height="18"></iconify-icon></span>
+                        <span>Redis</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 75%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:docker-icon" width="18" height="18"></iconify-icon></span>
+                        <span>Docker</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 82%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:git-icon" width="18" height="18"></iconify-icon></span>
+                        <span>Git</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 90%"></div></div>
+                    </div>
+                    <div class="skill-badge-wrapper">
+                      <div class="inline-flex items-center gap-2 px-3 py-2 rounded-md skill-badge">
+                        <span class="flex-shrink-0"><iconify-icon icon="logos:linux-tux" width="18" height="18"></iconify-icon></span>
+                        <span>Linux</span>
+                      </div>
+                      <div class="skill-level-bar"><div class="skill-level-fill" style="--level: 85%"></div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-footer" data-reveal data-reveal-delay="6">
+                <span class="skills-footer-text">12 tecnologias · sempre aprendendo mais</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="processos"
+          class="bg-background py-28 px-16 border-top-section processos-section"
+          data-component="@components/ProcessSection.jsx"
+        >
+          <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col gap-3 mb-16">
+              <span class="text-accent section-label" data-reveal data-reveal-delay="1"
+                >                <span>// 03 processos</span></span
+              >
+              <h2 class="font-headings text-foreground section-title" data-reveal data-reveal-delay="2">
+                <span>Como transformo ideias em sistemas reais</span>
+              </h2>
+            </div>
+            <div class="processos-flow">
+              <div class="processos-track">
+                <div class="processos-line"></div>
+                <div class="processos-line-fill" id="processLineFill"></div>
+              </div>
+              <div class="processos-cards">
+                <div class="processo-card-wrapper" data-reveal data-reveal-delay="1">
+                  <div class="processo-card">
+                    <div class="processo-number">01</div>
+                    <div class="processo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div>
+                    <h3 class="processo-title">Análise</h3>
+                    <p class="processo-desc">Entendo o problema, mapeio requisitos e identifico restrições antes de escrever uma linha de código.</p>
+                    <div class="processo-tag">Requisitos</div>
+                  </div>
+                </div>
+                <div class="processo-card-wrapper" data-reveal data-reveal-delay="2">
+                  <div class="processo-card">
+                    <div class="processo-number">02</div>
+                    <div class="processo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h18v18"/><path d="m3 3 7 7"/></svg></div>
+                    <h3 class="processo-title">Modelagem</h3>
+                    <p class="processo-desc">Desenho o schema de dados, relações e fluxos para garantir que a base seja sólida e escalável.</p>
+                    <div class="processo-tag">Schema</div>
+                  </div>
+                </div>
+                <div class="processo-card-wrapper" data-reveal data-reveal-delay="3">
+                  <div class="processo-card">
+                    <div class="processo-number">03</div>
+                    <div class="processo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+                    <h3 class="processo-title">Arquitetura</h3>
+                    <p class="processo-desc">Defino a estrutura do sistema, escolho as ferramentas e organizo camadas para máxima performance.</p>
+                    <div class="processo-tag">Estrutura</div>
+                  </div>
+                </div>
+                <div class="processo-card-wrapper" data-reveal data-reveal-delay="4">
+                  <div class="processo-card">
+                    <div class="processo-number">04</div>
+                    <div class="processo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                    <h3 class="processo-title">Desenvolvimento</h3>
+                    <p class="processo-desc">Codifico cada módulo com foco em performance, segurança e boas práticas do início ao fim.</p>
+                    <div class="processo-tag">Código</div>
+                  </div>
+                </div>
+                <div class="processo-card-wrapper" data-reveal data-reveal-delay="5">
+                  <div class="processo-card">
+                    <div class="processo-number">05</div>
+                    <div class="processo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+                    <h3 class="processo-title">Validação</h3>
+                    <p class="processo-desc">Testo cada funcionalidade, realizo code review e asseguro que o sistema atende aos requisitos.</p>
+                    <div class="processo-tag">Testes</div>
+                  </div>
+                </div>
+                <div class="processo-card-wrapper" data-reveal data-reveal-delay="6">
+                  <div class="processo-card">
+                    <div class="processo-number">06</div>
+                    <div class="processo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></div>
+                    <h3 class="processo-title">Entrega</h3>
+                    <p class="processo-desc">Implanto em produção com CI/CD, monitore o lançamento e garanto uma transição suave.</p>
+                    <div class="processo-tag">Deploy</div>
+                  </div>
+                </div>
+                <div class="processo-card-wrapper" data-reveal data-reveal-delay="7">
+                  <div class="processo-card">
+                    <div class="processo-number">07</div>
+                    <div class="processo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+                    <h3 class="processo-title">Escala</h3>
+                    <p class="processo-desc">Otimizo performance, ajusto recursos e preparo a arquitetura para crescer sem perder estabilidade.</p>
+                    <div class="processo-tag">Performance</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="projetos"
+          class="bg-background py-28 px-16 border-top-section"
+          data-reveal
+          data-component="@components/ProjectsSection.jsx"
+        >
+          <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col gap-12">
+              <div class="flex flex-col gap-3">
+                <span class="text-accent section-label" data-reveal data-reveal-delay="1"
+                  ><span
+                    data-file="/components/ProjectsSection.jsx"
+                    data-idx="0"
+                    >// 04 projetos</span
+                  ></span
+                >
+                <div class="flex items-end justify-between">
+                  <h2 class="font-headings text-foreground section-title" data-reveal data-reveal-delay="2">
+                    <span
+                      data-file="/components/ProjectsSection.jsx"
+                      data-idx="1"
+                      >Projetos em destaque</span
+                    >
+                  </h2>
+                  <span class="font-body text-muted-foreground text-sm"
+                    ><span
+                      data-file="/components/ProjectsSection.jsx"
+                      data-idx="2"
+                       >6 projetos</span
+                    ></span
+                  >
+                </div>
+              </div>
+              <div class="grid grid-cols-2 gap-5" data-reveal data-reveal-delay="3">
+                <div
+                  class="flex flex-col gap-4 p-6 rounded-md project-card"
+                  data-component="@components/ProjectCard.jsx"
+                >
+                  <img
+                    class="project-card-image"
+                    src="images-project/agilliza.jpeg"
+                    alt="Agiliza screenshot"
+                    loading="lazy"
+                  />
+                  <div class="flex items-center gap-3">
+                    <span class="font-headings text-foreground project-title">Agiliza</span>
+                  </div>
+                  <p class="font-body text-muted-foreground project-desc">
+                    Plataforma de apoio a mamãs lavadeiras com autenticação,
+                    notificações e chamadas na aplicação.
+                  </p>
+                  <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2">
+                      <span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:nodejs-icon" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:typescript-icon" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><svg width="14" height="14" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="3" fill="#1A1A1A"/><text x="4" y="22" font-family="sans-serif" font-size="8" fill="#F4F4F5">ex</text></svg></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:postgresql" width="14" height="14"></iconify-icon></span>
+                    </div>
+                    <a
+                      class="font-body text-muted-foreground flex items-center gap-1 project-link"
+                      data-media-type="banani-button"
+                      ><span data-file="/components/ProjectCard.jsx" data-idx="0">Ver detalhes</span
+                      ><span class="project-link-arrow">→</span></a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-4 p-6 rounded-md project-card"
+                  data-component="@components/ProjectCard.jsx"
+                >
+                  <img
+                    class="project-card-image"
+                    src="images-project/metanoia.png"
+                    alt="Metanoia Academy screenshot"
+                    loading="lazy"
+                  />
+                  <div class="flex items-center gap-3">
+                    <span class="font-headings text-foreground project-title">Metanoia Academy</span>
+                  </div>
+                  <p class="font-body text-muted-foreground project-desc">
+                    Plataforma de recomendação de mentores com inteligência
+                    artificial e pesquisa semântica.
+                  </p>
+                  <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2">
+                      <span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:django-icon" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:postgresql" width="14" height="14"></iconify-icon></span>
+                    </div>
+                    <a
+                      class="font-body text-muted-foreground flex items-center gap-1 project-link"
+                      data-media-type="banani-button"
+                      ><span data-file="/components/ProjectCard.jsx" data-idx="0">Ver detalhes</span
+                      ><span class="project-link-arrow">→</span></a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-4 p-6 rounded-md project-card"
+                  data-component="@components/ProjectCard.jsx"
+                >
+                  <img
+                    class="project-card-image"
+                    src="images-project/caf-intellilear.png"
+                    alt="CAF — IntelliLearn screenshot"
+                    loading="lazy"
+                  />
+                  <div class="flex items-center gap-3">
+                    <span class="font-headings text-foreground project-title">CAF — IntelliLearn</span>
+                  </div>
+                  <p class="font-body text-muted-foreground project-desc">
+                    Plataforma de apoio estudantil com geração de PDFs, chat
+                    de SMS e bot inteligente.
+                  </p>
+                  <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2">
+                      <span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:python" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:django-icon" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:postgresql" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:redis" width="14" height="14"></iconify-icon></span>
+                    </div>
+                    <a
+                      class="font-body text-muted-foreground flex items-center gap-1 project-link"
+                      data-media-type="banani-button"
+                      ><span data-file="/components/ProjectCard.jsx" data-idx="0">Ver detalhes</span
+                      ><span class="project-link-arrow">→</span></a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-4 p-6 rounded-md project-card"
+                  data-component="@components/ProjectCard.jsx"
+                >
+                  <img
+                    class="project-card-image"
+                    src="images-project/tell%20me%20anything.jpeg"
+                    alt="Tell me anything screenshot"
+                    loading="lazy"
+                  />
+                  <div class="flex items-center gap-3">
+                    <span class="font-headings text-foreground project-title">Tell me anything</span>
+                  </div>
+                  <p class="font-body text-muted-foreground project-desc">
+                    Gerador de trabalhos académicos com IA, pesquisa semântica
+                    e formatação automática de texto.
+                  </p>
+                  <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2">
+                      <span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:python" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:postgresql" width="14" height="14"></iconify-icon></span>
+                    </div>
+                    <a
+                      class="font-body text-muted-foreground flex items-center gap-1 project-link"
+                      data-media-type="banani-button"
+                      ><span data-file="/components/ProjectCard.jsx" data-idx="0">Ver detalhes</span
+                      ><span class="project-link-arrow">→</span></a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-4 p-6 rounded-md project-card"
+                  data-component="@components/ProjectCard.jsx"
+                >
+                  <img
+                    class="project-card-image"
+                    src="images-project/plagistic.png"
+                    alt="Plagistic screenshot"
+                    loading="lazy"
+                  />
+                  <div class="flex items-center gap-3">
+                    <span class="font-headings text-foreground project-title">Plagistic</span>
+                  </div>
+                  <p class="font-body text-muted-foreground project-desc">
+                    Sistema ETL de detecção de plágios em documentos com
+                    extração de texto e integração com IA.
+                  </p>
+                  <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2">
+                      <span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:python" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:fastapi" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:mongodb-icon" width="14" height="14"></iconify-icon></span>
+                    </div>
+                    <a
+                      class="font-body text-muted-foreground flex items-center gap-1 project-link"
+                      data-media-type="banani-button"
+                      ><span data-file="/components/ProjectCard.jsx" data-idx="0">Ver detalhes</span
+                      ><span class="project-link-arrow">→</span></a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col gap-4 p-6 rounded-md project-card"
+                  data-component="@components/ProjectCard.jsx"
+                >
+                  <img
+                    class="project-card-image"
+                    src="images-project/doaso.png"
+                    alt="DoaSó screenshot"
+                    loading="lazy"
+                  />
+                  <div class="flex items-center gap-3">
+                    <span class="font-headings text-foreground project-title">DoaSó</span>
+                  </div>
+                  <p class="font-body text-muted-foreground project-desc">
+                    Plataforma de gestão de doações com arquitectura modular,
+                    notificações e replicação de base de dados.
+                  </p>
+                  <div class="flex items-center justify-between mt-auto">
+                    <div class="flex items-center gap-2">
+                      <span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:python" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:fastapi" width="14" height="14"></iconify-icon></span
+                      ><span class="flex items-center justify-center badge-icon-box"
+                        ><iconify-icon icon="logos:postgresql" width="14" height="14"></iconify-icon></span>
+                    </div>
+                    <a
+                      class="font-body text-muted-foreground flex items-center gap-1 project-link"
+                      data-media-type="banani-button"
+                      ><span data-file="/components/ProjectCard.jsx" data-idx="0">Ver detalhes</span
+                      ><span class="project-link-arrow">→</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="experiencia"
+          class="bg-background py-28 px-16 border-top-section"
+          data-component="@components/ExperienceSection.jsx"
+        >
+           <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col gap-12">
+              <div class="flex flex-col gap-8">
+                <div class="flex flex-col gap-3">
+                  <span class="text-accent section-label" data-reveal data-reveal-delay="1"
+                    ><span data-file="/components/ExperienceSection.jsx" data-idx="0"
+                      >// 05 experiência</span
+                    ></span
+                  >
+                  <h2 class="font-headings text-foreground section-title" data-reveal data-reveal-delay="2">
+                    <span data-file="/components/ExperienceSection.jsx" data-idx="1"
+                      >Núcleo Tecnológico — CAF</span
+                    >
+                  </h2>
+                </div>
+                <div class="flex flex-col gap-4" data-reveal data-reveal-delay="3">
+                  <p class="font-body text-muted-foreground about-text">
+                    Atuei no <span class="text-highlight">Núcleo Tecnológico do CAF</span> onde liderei o time
+                    backend como <span class="text-highlight">Team Líder Backend</span>, responsável pela arquitetura
+                    das APIs, revisão de código, definição de padrões técnicos e coordenação
+                    do time de desenvolvimento.
+                  </p>
+                  <p class="font-body text-muted-foreground about-text">
+                    Como <span class="text-highlight">DBA</span>, administrei e otimizei bancos de dados relacionais,
+                    realizei tuning de queries, modelagem de dados, migrações e garanti
+                    a integridade e desempenho das bases.
+                  </p>
+                  <p class="font-body text-muted-foreground about-text">
+                    Como <span class="text-highlight">Backend Developer</span>, desenvolvi microsserviços, integrações
+                    com APIs externas, filas de processamento assíncrono e dashboards
+                    de monitoramento.
+                  </p>
+                </div>
+              </div>
+                <div class="exp-image-wrapper" data-reveal data-reveal-delay="4">
+                  <div class="exp-image-placeholder" id="expImage">
+                    <img src="ntc/ntc1.jpeg" alt="NTC foto 1" class="active" />
+                    <img src="ntc/ntc2.jpeg" alt="NTC foto 2" />
+                    <img src="ntc/ntc3.jpeg" alt="NTC foto 3" />
+                  </div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="servicos"
+          class="bg-background py-28 px-16 border-top-section"
+          data-component="@components/ServicesSection.jsx"
+        >
+          <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col gap-3 mb-12">
+              <span class="text-accent section-label" data-reveal data-reveal-delay="1"
+                ><span data-file="/components/ServicesSection.jsx" data-idx="0"
+                  >// 06 serviços</span
+                ></span
+              >
+              <h2 class="font-headings text-foreground section-title" data-reveal data-reveal-delay="2">
+                <span data-file="/components/ServicesSection.jsx" data-idx="1"
+                  >O que posso fazer por você</span
+                >
+              </h2>
+            </div>
+            <div class="flex gap-10 items-start">
+              <div class="flex-1 flex flex-col gap-6" data-reveal data-reveal-delay="3">
+                <div class="flex items-center gap-2 mb-1">
+                  <span class="text-accent font-headings text-sm"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> feedbacks</span>
+                </div>
+                <div class="feedback-carousel" id="feedbackCarousel">
+                  <div class="feedback-slide active">
+                    <div class="feedback-card">
+                      <div class="feedback-card-top">
+                        <div class="feedback-avatar">
+                          <img src="depoiments/lourenco cardoso.jpeg" alt="Lourenço Cardoso" class="feedback-avatar-img" />
+                        </div>
+                        <div class="feedback-card-content">
+                          <p class="font-body text-muted-foreground feedback-text">
+                            "Já trabalhei com vários backends na minha carreira, mas poucos têm o nível de raciocínio que ele demonstra. Quando o meu lado mobile precisa de dados, estão sempre organizados, rápidos e consistentes. É o tipo de profissional que faz o seu trabalho parecer fácil porque o dele está impecável."
+                          </p>
+                        </div>
+                      </div>
+                      <span class="feedback-author">— Lourenço Cardoso, Dev Mobile · Horizon DEV</span>
+                    </div>
+                  </div>
+                  <div class="feedback-slide">
+                    <div class="feedback-card">
+                      <div class="feedback-card-top">
+                        <div class="feedback-avatar">
+                          <img src="depoiments/paulo sanguli.jpeg" alt="Paulo Sanguli" class="feedback-avatar-img" />
+                        </div>
+                        <div class="feedback-card-content">
+                          <p class="font-body text-muted-foreground feedback-text">
+                            "Como dev backend eu sei o que é difícil nessa área — e ele resolve bem o que já é complexo, e ainda vai além. A forma como ele estrutura bancos de dados é algo que me fez aprender bastante. Não é só técnica, é visão. Sabe exatamente onde cada dado deve estar e porquê."
+                          </p>
+                        </div>
+                      </div>
+                      <span class="feedback-author">— Paulo Sanguli, Dev Backend · Horizon DEV</span>
+                    </div>
+                  </div>
+                  <div class="feedback-slide">
+                    <div class="feedback-card">
+                      <div class="feedback-card-top">
+                        <div class="feedback-avatar">
+                          <img src="depoiments/joao mendes.jpeg" alt="João Mendes" class="feedback-avatar-img" />
+                        </div>
+                        <div class="feedback-card-content">
+                          <p class="font-body text-muted-foreground feedback-text">
+                            "Do ponto de vista de gestão, ter um backend e DBA como ele no projeto é uma tranquilidade enorme. Nunca tivemos problemas de performance ou perda de dados. Ele antecipa os problemas antes que eles cheguem à reunião. Isso vale ouro numa equipe."
+                          </p>
+                        </div>
+                      </div>
+                      <span class="feedback-author">— João Mendes, Gestor de Projetos · Coordenador NTC</span>
+                    </div>
+                  </div>
+                  <div class="feedback-slide">
+                    <div class="feedback-card">
+                      <div class="feedback-card-top">
+                        <div class="feedback-avatar">
+                          <img src="depoiments/silvio Thone.jpeg" alt="Sílvio Thone" class="feedback-avatar-img" />
+                        </div>
+                        <div class="feedback-card-content">
+                          <p class="font-body text-muted-foreground feedback-text">
+                            "O que me chama atenção nele é que não fica preso às soluções convencionais. Na parte de banco de dados especialmente, ele pensa na arquitetura de um jeito que poucos jovens devs pensam. Tem maturidade técnica acima da média."
+                          </p>
+                        </div>
+                      </div>
+                      <span class="feedback-author">— Sílvio Thone, Eng. Telecom · Mentor CAF NTC</span>
+                    </div>
+                  </div>
+                  <div class="feedback-slide">
+                    <div class="feedback-card">
+                      <div class="feedback-card-top">
+                        <div class="feedback-avatar">
+                          <img src="depoiments/Antonio Gabriel.jpeg" alt="António Gabriel" class="feedback-avatar-img" />
+                        </div>
+                        <div class="feedback-card-content">
+                          <p class="font-body text-muted-foreground feedback-text">
+                            "Dados nas mãos dele estão seguros. Ele entende o ciclo completo — desde a modelagem do banco até a API que entrega a informação — e isso faz uma diferença brutal no produto final. É raro encontrar alguém que domina backend e banco de dados com essa profundidade."
+                          </p>
+                        </div>
+                      </div>
+                      <span class="feedback-author">— António Gabriel, Eng. Software · Overlabs · Mentor CAF NTC</span>
+                    </div>
+                  </div>
+                  <div class="feedback-slide">
+                    <div class="feedback-card">
+                      <div class="feedback-card-top">
+                        <div class="feedback-avatar">
+                          <img src="depoiments/omar rodrigues.png" alt="Omar Rodrigues" class="feedback-avatar-img" />
+                        </div>
+                        <div class="feedback-card-content">
+                          <p class="font-body text-muted-foreground feedback-text">
+                            "Trabalhamos lado a lado no backend e aprendi muito observando a forma como ele organiza as queries e pensa na estrutura do banco. Não é alguém que apenas faz funcionar — é alguém que faz funcionar bem, com consistência e escalabilidade em mente desde o início."
+                          </p>
+                        </div>
+                      </div>
+                      <span class="feedback-author">— Omar Rodrigues, Dev Backend · CAF NTC</span>
+                    </div>
+                  </div>
+                  <div class="feedback-slide">
+                    <div class="feedback-card">
+                      <div class="feedback-card-top">
+                        <div class="feedback-avatar">
+                          <img src="depoiments/joao tambue.png" alt="João Tambue" class="feedback-avatar-img" />
+                        </div>
+                        <div class="feedback-card-content">
+                          <p class="font-body text-muted-foreground feedback-text">
+                            "Do frontend eu dependia muito dele para integrar as APIs, e posso dizer que era sempre uma experiência sem dor de cabeça. Documentação clara, respostas consistentes, dados bem estruturados. Ele é o tipo de backend que todo desenvolvedor frontend sonha em ter do outro lado."
+                          </p>
+                        </div>
+                      </div>
+                      <span class="feedback-author">— João Tambue, Dev Frontend · CAF NTC</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="feedback-dots">
+                  <span class="feedback-dot active"></span>
+                  <span class="feedback-dot"></span>
+                  <span class="feedback-dot"></span>
+                  <span class="feedback-dot"></span>
+                  <span class="feedback-dot"></span>
+                  <span class="feedback-dot"></span>
+                  <span class="feedback-dot"></span>
+                </div>
+              </div>
+              <div class="flex-shrink-0 w-72" data-reveal data-reveal-delay="4">
+                <div class="flex flex-col gap-4">
+                  <span class="text-accent font-headings text-sm"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> especialidades</span>
+                  <div class="servico-card">
+                    <span class="servico-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>
+                    <div class="flex flex-col gap-1">
+                      <span class="font-headings text-foreground font-semibold">Desenvolvimento Backend</span>
+                      <span class="font-body text-muted-foreground text-sm">APIs, microsserviços, sistemas robustos</span>
+                    </div>
+                  </div>
+                  <div class="servico-card">
+                    <span class="servico-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></span>
+                    <div class="flex flex-col gap-1">
+                      <span class="font-headings text-foreground font-semibold">Modelagem de Dados</span>
+                      <span class="font-body text-muted-foreground text-sm">Esquemas relacionais, migrações, otimização</span>
+                    </div>
+                  </div>
+                  <div class="servico-card">
+                    <span class="servico-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></span>
+                    <div class="flex flex-col gap-1">
+                      <span class="font-headings text-foreground font-semibold">Performance Tuning</span>
+                      <span class="font-body text-muted-foreground text-sm">Queries, índices, cache, escalabilidade</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="contato"
+          class="bg-background py-28 px-16 border-top-section"
+          data-reveal
+          data-component="@components/ContactSection.jsx"
+        >
+          <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col gap-12">
+              <div class="flex flex-col gap-3">
+                <span class="text-accent section-label" data-reveal data-reveal-delay="1"
+                  ><span data-file="/components/ContactSection.jsx" data-idx="0"
+                    >// 07 contato</span
+                  ></span
+                >
+                <h2 class="font-headings text-foreground section-title" data-reveal data-reveal-delay="2">
+                  <span data-file="/components/ContactSection.jsx" data-idx="1"
+                    >Vamos construir algo juntos</span
+                  >
+                </h2>
+                <p class="font-body text-muted-foreground contact-desc" data-reveal data-reveal-delay="3">
+                  <span data-file="/components/ContactSection.jsx" data-idx="2"
+                    >Aberto a vagas backend, consultoria e problemas
+                    interessantes de infraestrutura. Entre em contato diretamente.</span
+                  >
+                </p>
+              </div>
+              <div class="flex flex-col gap-10 lg:flex-row lg:gap-16 lg:justify-between">
+                <form class="flex-1 flex flex-col gap-4 contact-form" data-reveal data-reveal-delay="4" action="mailto:gomesmenembage16@gmail.com" method="post" enctype="text/plain" onsubmit="return confirm('Seu email será aberto para enviar esta mensagem. Deseja continuar?')">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <input type="text" placeholder="Nome" class="form-input" required />
+                    <input type="email" placeholder="Email" class="form-input" required />
+                  </div>
+                  <input type="text" placeholder="Assunto" class="form-input" />
+                  <textarea placeholder="Mensagem" class="form-input form-textarea" rows="4" required></textarea>
+                  <button type="submit" class="font-body font-medium px-6 py-3 rounded-md btn-solid self-start">
+                    Enviar mensagem
+                  </button>
+                </form>
+                <div class="flex flex-col gap-5 flex-shrink-0 items-end" data-reveal data-reveal-delay="5">
+                  <div class="flex items-center justify-end gap-3">
+                    <a
+                      href="https://github.com/GomesMenembage"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-muted-foreground text-sm font-body hover:text-foreground transition-colors"
+                      >github.com/GomesMenembage</a
+                    ><a
+                      href="https://github.com/GomesMenembage"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="flex items-center justify-center text-muted-foreground social-btn"
+                      data-media-type="banani-button"
+                      ><span
+                        class="icon-box"
+                        style="width: 18px; height: 18px"
+                        data-icon="github"
+                        data-component="@globalComponents/Icon.jsx"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2.6666666666666665"
+                          >
+                            <path
+                              d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5c.08-1.25-.27-2.48-1-3.5c.28-1.15.28-2.35 0-3.5c0 0-1 0-3 1.5c-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5c-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"
+                            ></path>
+                            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                          </g></svg></span></a
+                    >
+                  </div>
+                  <div class="flex items-center justify-end gap-3">
+                    <a
+                      href="https://linkedin.com/in/menembage-dev"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-muted-foreground text-sm font-body hover:text-foreground transition-colors"
+                      >linkedin.com/menembage-dev</a
+                    ><a
+                      href="https://linkedin.com/in/menembage-dev"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="flex items-center justify-center text-muted-foreground social-btn"
+                      data-media-type="banani-button"
+                      ><span
+                        class="icon-box"
+                        style="width: 18px; height: 18px"
+                        data-icon="linkedin"
+                        data-component="@globalComponents/Icon.jsx"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2.6666666666666665"
+                          >
+                            <path
+                              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"
+                            ></path>
+                            <circle cx="4" cy="4" r="2"></circle>
+                          </g></svg></span></a
+                    >
+                  </div>
+                  <div class="flex items-center justify-end gap-3">
+                    <a
+                      href="https://wa.me/244972914909"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-muted-foreground text-sm font-body hover:text-foreground transition-colors"
+                      >+244 972 914 909</a
+                    ><a
+                      href="https://wa.me/244972914909"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="flex items-center justify-center text-muted-foreground social-btn"
+                      data-media-type="banani-button"
+                      ><span
+                        class="icon-box"
+                        style="width: 18px; height: 18px"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                        >
+                          <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                            fill="currentColor"
+                          /></svg></span></a
+                    >
+                  </div>
+                  <div class="flex items-center justify-end gap-3">
+                    <a
+                      href="mailto:gomesmenembage16@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-muted-foreground text-sm font-body hover:text-foreground transition-colors"
+                      >gomesmenembage16@gmail.com</a
+                    ><a
+                      href="mailto:gomesmenembage16@gmail.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="flex items-center justify-center text-muted-foreground social-btn"
+                      data-media-type="banani-button"
+                      ><span
+                        class="icon-box"
+                        style="width: 18px; height: 18px"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18px"
+                          height="18px"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2.5"
+                          >
+                            <path
+                              d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                            ></path>
+                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                          </g></svg></span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          class="bg-background py-8 px-16 border-top-section"
+          data-reveal
+          data-component="@components/PortfolioFooter.jsx"
+        >
+          <div class="max-w-5xl mx-auto flex items-center justify-between">
+            <span class="font-body text-muted-foreground footer-text"
+              ><span data-file="/components/PortfolioFooter.jsx" data-idx="0"
+                >© 2026 Gomes Menembage. Construído com precisão.</span
+              ></span
+            ><span class="text-muted-foreground footer-mono"
+              ><span data-file="/components/PortfolioFooter.jsx" data-idx="1"
+                >dev backend &amp; dba</span
+              ></span
+            >
+          </div>
+        </footer>
+      <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+          <button class="modal-close" id="modalClose">×</button>
+          <img class="modal-image" id="modalImage" src="" alt="Project screenshot" />
+          <div class="modal-title" id="modalTitle"></div>
+          <div class="modal-year" id="modalYear"></div>
+          <div class="modal-subtitle" id="modalDesc"></div>
+          <div class="modal-section-title">Tecnologias</div>
+          <div class="modal-tech-list" id="modalTech"></div>
+          <div class="modal-section-title">Funcionalidades</div>
+          <div class="modal-features" id="modalFeatures"></div>
+        </div>
+      </div>
+
+      <div class="modal-overlay" id="techModal">
+        <div class="modal-content tech-modal-content">
+          <button class="modal-close" id="techModalClose">×</button>
+          <div class="tech-modal-header">
+            <div class="tech-modal-icon" id="techModalIcon"></div>
+            <div>
+              <div class="modal-title" id="techModalTitle"></div>
+              <div class="tech-modal-level" id="techModalLevel"></div>
+            </div>
+          </div>
+          <div class="modal-subtitle" id="techModalDesc"></div>
+          <div class="tech-modal-category" id="techModalCategory"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const projects = [
+        {
+          title: "Agiliza",
+          desc: "Plataforma de apoio a mamãs lavadeiras com autenticação, notificações e chamadas directas na aplicação.",
+          year: "2025",
+          tech: ["Node.js", "TypeScript", "Express", "PostgreSQL"],
+          image: "images-project/agilliza.jpeg",
+          features: [
+            "Autenticação de utilizadores",
+            "Rate limiting",
+            "Chamadas na aplicação",
+            "Notificações em tempo real"
+          ]
+        },
+        {
+          title: "Metanoia Academy",
+          desc: "Plataforma de recomendação de mentores com inteligência artificial e pesquisa semântica.",
+          year: "2025",
+          tech: ["Django", "PostgreSQL"],
+          image: "images-project/metanoia.png",
+          features: [
+            "Recomendação com IA",
+            "Pesquisa semântica",
+            "Perfis de mentores e mentorados",
+            "Sistema de matching inteligente"
+          ]
+        },
+        {
+          title: "CAF — IntelliLearn",
+          desc: "Plataforma de apoio estudantil para o Colégio Árvore da Felicidade com geração de PDFs, chat e bot inteligente.",
+          year: "2025",
+          tech: ["Python", "Django", "PostgreSQL", "Redis"],
+          image: "images-project/caf-intellilear.png",
+          features: [
+            "Geração de PDFs dinâmicos",
+            "Chat de SMS integrado",
+            "Compilador embutido",
+            "Bot inteligente de suporte"
+          ]
+        },
+        {
+          title: "Tell me anything",
+          desc: "Gerador de trabalhos académicos com IA, pesquisa semântica e formatação automática de texto.",
+          year: "2025",
+          tech: ["Python", "PostgreSQL"],
+          image: "images-project/tell%20me%20anything.jpeg",
+          features: [
+            "Pesquisa semântica",
+            "Formatação de texto automática",
+            "Geração de conteúdo com IA",
+            "Exportação em múltiplos formatos"
+          ]
+        },
+        {
+          title: "Plagistic",
+          desc: "Sistema ETL de detecção de plágios em documentos com extração de texto e integração com IA.",
+          year: "2025",
+          tech: ["Python", "FastAPI", "MongoDB"],
+          image: "images-project/plagistic.png",
+          features: [
+            "Extração de texto formatado para texto puro",
+            "Pipeline ETL completo",
+            "Envio de relatórios",
+            "Integração com IA"
+          ]
+        },
+        {
+          title: "DoaSó",
+          desc: "Plataforma de gestão de doações com arquitectura modular, notificações e replicação de base de dados.",
+          year: "2025",
+          tech: ["Python", "FastAPI", "PostgreSQL"],
+          image: "images-project/doaso.png",
+          features: [
+            "Notificações em tempo real",
+            "Rate limiting",
+            "Arquitetura modular",
+            "Replicação de base de dados"
+          ]
+        }
+      ];
+
+      const modal = document.getElementById("modal");
+      const modalTitle = document.getElementById("modalTitle");
+      const modalYear = document.getElementById("modalYear");
+      const modalDesc = document.getElementById("modalDesc");
+      const modalTech = document.getElementById("modalTech");
+      const modalFeatures = document.getElementById("modalFeatures");
+      const modalImage = document.getElementById("modalImage");
+      const modalClose = document.getElementById("modalClose");
+
+      function openModal(index) {
+        const p = projects[index];
+        modalImage.src = p.image;
+        modalImage.alt = p.title + " — Captura de ecrã";
+        modalTitle.textContent = p.title;
+        modalYear.textContent = p.year;
+        modalDesc.textContent = p.desc;
+        modalTech.innerHTML = p.tech.map(t => `<span class="modal-tech-item">${t}</span>`).join("");
+        modalFeatures.innerHTML = p.features.map(f => `<div class="modal-feature">${f}</div>`).join("");
+        modal.classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeModal() {
+        modal.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+
+      modalClose.addEventListener("click", closeModal);
+
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+      });
+
+      document.querySelectorAll(".project-card").forEach((card, i) => {
+        card.addEventListener("click", () => openModal(i));
+      });
+
+      let countersAnimated = false;
+
+      function animateCounters() {
+        if (countersAnimated) return;
+        countersAnimated = true;
+        document.querySelectorAll("[data-count]").forEach(el => {
+          const target = parseInt(el.dataset.count);
+          const plus = target >= 10;
+          let current = 0;
+          const step = Math.max(1, Math.floor(target / 30));
+          const interval = setInterval(() => {
+            current += step;
+            if (current >= target) {
+              current = target;
+              clearInterval(interval);
+            }
+            el.textContent = current + (plus ? "+" : "");
+          }, 40);
+        });
+      }
+
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("revealed");
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll("[data-reveal]").forEach(el => revealObserver.observe(el));
+
+      const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounters();
+            counterObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+
+      document.querySelectorAll("[data-count]").forEach(el => counterObserver.observe(el));
+
+      const sections = document.querySelectorAll("section[id]");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      function updateActiveLink() {
+        let current = "";
+        sections.forEach(s => {
+          const top = s.offsetTop - 120;
+          if (window.scrollY >= top) current = s.id;
+        });
+        navLinks.forEach(a => {
+          const match = a.getAttribute("href") === "#" + current;
+          a.style.color = match ? "var(--color-foreground)" : "";
+          a.classList.toggle("active", match);
+        });
+      }
+
+      window.addEventListener("scroll", updateActiveLink);
+      updateActiveLink();
+
+      function updateProcessLine() {
+        const section = document.getElementById("processos");
+        const fill = document.getElementById("processLineFill");
+        if (!section || !fill) return;
+        const rect = section.getBoundingClientRect();
+        const start = rect.top;
+        const end = rect.bottom;
+        const h = window.innerHeight;
+        const progress = Math.max(0, Math.min(1, (h - start) / (end - start + h)));
+        fill.style.width = (progress * 100) + "%";
+      }
+
+      window.addEventListener("scroll", updateProcessLine);
+
+      const techModal = document.getElementById("techModal");
+      const techModalTitle = document.getElementById("techModalTitle");
+      const techModalDesc = document.getElementById("techModalDesc");
+      const techModalIcon = document.getElementById("techModalIcon");
+      const techModalLevel = document.getElementById("techModalLevel");
+      const techModalCategory = document.getElementById("techModalCategory");
+      const techModalClose = document.getElementById("techModalClose");
+
+      const techDescriptions = {
+        TypeScript: "Linguagem tipada que traz segurança e escalabilidade ao JavaScript. Essencial para construir APIs robustas e sistemas de grande porte com confiança.",
+        Python: "Linguagem versátil e expressiva, usada para backend, automação e análise de dados. Minha principal ferramenta para scripts e prototipação rápida.",
+        Django: "Framework web full-stack que prioriza produtividade e 'baterias incluídas'. Ideal para aplicações complexas com admin embutido e ORM maduro.",
+        FastAPI: "Framework moderno para APIs com Python, com tipagem automática, documentação OpenAPI nativa e performance comparável a soluções em Go.",
+        Express: "Framework minimalista para Node.js. Construo APIs leves e microsserviços com roteamento flexível e middleware robusto.",
+        PostgreSQL: "Banco relacional mais avançado do mercado. Domino modelagem, tuning de consultas, replicação e administração de alta disponibilidade.",
+        MySQL: "Banco relacional amplamente adotado. Experiência em migrações, otimização de queries e administração de clusters.",
+        MongoDB: "Banco NoSQL orientado a documentos. Ideal para prototipação rápida e dados semi-estruturados. Experiência com agregações e índices.",
+        Redis: "Armazenamento em memória usado para cache, filas e sessões. Reduz latência e suporta operações em tempo real com alta throughput.",
+        Docker: "Plataforma de conteinerização que padroniza ambientes de dev e produção. Isolo serviços, simplifico deploys e garanto consistência.",
+        Git: "Controle de versão distribuído. Domino fluxos como Git Flow, rebase interativo e resolução de conflitos em equipas multidisciplinares.",
+        Linux: "Sistema principal para desenvolvimento e produção. Familiaridade com shell scripting, administração de servidores, redes e segurança."
+      };
+
+      function getCategory(tech) {
+        const map = { TypeScript: "Linguagens", Python: "Linguagens", Django: "Frameworks", FastAPI: "Frameworks", Express: "Frameworks", PostgreSQL: "Bancos de Dados", MySQL: "Bancos de Dados", MongoDB: "Bancos de Dados", Redis: "Ferramentas", Docker: "Ferramentas", Git: "Ferramentas", Linux: "Ferramentas" };
+        return map[tech] || "";
+      }
+
+      function getLevel(tech) {
+        const map = { TypeScript: 90, Python: 85, Django: 80, FastAPI: 88, Express: 70, PostgreSQL: 92, MySQL: 78, MongoDB: 72, Redis: 75, Docker: 82, Git: 90, Linux: 85 };
+        return map[tech] || 0;
+      }
+
+      function openTechModal(techName, iconSvg) {
+        techModalTitle.textContent = techName;
+        techModalDesc.textContent = techDescriptions[techName] || "Descrição em breve.";
+        techModalIcon.innerHTML = iconSvg;
+        techModalLevel.textContent = "Proficiência: " + getLevel(techName) + "%";
+        techModalCategory.textContent = "Categoria: " + getCategory(techName);
+        techModal.classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeTechModal() {
+        techModal.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+
+      techModalClose.addEventListener("click", closeTechModal);
+
+      techModal.addEventListener("click", (e) => {
+        if (e.target === techModal) closeTechModal();
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          if (techModal.classList.contains("active")) closeTechModal();
+          if (modal.classList.contains("active")) closeModal();
+        }
+      });
+
+      document.querySelectorAll(".skill-badge").forEach(badge => {
+        badge.addEventListener("click", () => {
+          const name = badge.querySelector("span:last-child").textContent;
+          const iconEl = badge.querySelector("iconify-icon") || badge.querySelector("svg");
+          let iconHtml = "";
+          if (iconEl) {
+            if (iconEl.tagName === "ICONIFY-ICON") {
+              const attr = iconEl.getAttribute("icon");
+              iconHtml = `<iconify-icon icon="${attr}" width="56" height="56"></iconify-icon>`;
+            } else {
+              iconHtml = iconEl.outerHTML.replace(/width="18"/, 'width="56"').replace(/height="18"/, 'height="56"');
+            }
+          }
+          openTechModal(name, iconHtml);
+        });
+      });
+
+      let expIndex = 0;
+      const expSlides = document.querySelectorAll("#expImage img");
+      if (expSlides.length > 0) {
+        setInterval(() => {
+          expSlides[expIndex].classList.remove("active");
+          expIndex = (expIndex + 1) % expSlides.length;
+          expSlides[expIndex].classList.add("active");
+        }, 3000);
+      }
+
+      let fbIndex = 0;
+      const fbSlides = document.querySelectorAll("#feedbackCarousel .feedback-slide");
+      const fbDots = document.querySelectorAll(".feedback-dot");
+      function showFeedback(i) {
+        document.querySelector("#feedbackCarousel .feedback-slide.active")?.classList.remove("active");
+        document.querySelector(".feedback-dot.active")?.classList.remove("active");
+        fbSlides[i].classList.add("active");
+        fbDots[i].classList.add("active");
+      }
+      if (fbSlides.length > 0) {
+        setInterval(() => {
+          fbIndex = (fbIndex + 1) % fbSlides.length;
+          showFeedback(fbIndex);
+        }, 4000);
+        fbDots.forEach((dot, i) => {
+          dot.addEventListener("click", () => {
+            fbIndex = i;
+            showFeedback(fbIndex);
+          });
+        });
+      }
+
+      const hamburger = document.getElementById("hamburger");
+      const navMobile = document.getElementById("navMobile");
+      if (hamburger && navMobile) {
+        hamburger.addEventListener("click", () => {
+          hamburger.classList.toggle("active");
+          navMobile.classList.toggle("active");
+          document.body.style.overflow = navMobile.classList.contains("active") ? "hidden" : "";
+        });
+        navMobile.querySelectorAll("a").forEach(link => {
+          link.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMobile.classList.remove("active");
+            document.body.style.overflow = "";
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+</div>
