@@ -1581,6 +1581,14 @@ html {
 .nav-mobile-link {
   font-size: 18px !important;
   font-weight: 600 !important;
+  color: var(--color-foreground) !important;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.nav-mobile-link:hover {
+  opacity: 1;
+  color: var(--color-primary) !important;
 }
 
 .nav-mobile-btn {
