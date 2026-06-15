@@ -86,6 +86,7 @@
             <span></span>
             <span></span>
           </button>
+          <div class="nav-mobile-overlay" id="navMobileOverlay"></div>
           <div class="nav-mobile" id="navMobile">
             <div class="nav-mobile-inner">
               <a href="#sobre" class="nav-link nav-mobile-link">Sobre</a>
@@ -1511,19 +1512,31 @@
 
       const hamburger = document.getElementById("hamburger");
       const navMobile = document.getElementById("navMobile");
+      const navMobileOverlay = document.getElementById("navMobileOverlay");
+      function closeMobileMenu() {
+        hamburger.classList.remove("active");
+        navMobile.classList.remove("active");
+        navMobileOverlay.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+      function openMobileMenu() {
+        hamburger.classList.add("active");
+        navMobile.classList.add("active");
+        navMobileOverlay.classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
       if (hamburger && navMobile) {
         hamburger.addEventListener("click", () => {
-          hamburger.classList.toggle("active");
-          navMobile.classList.toggle("active");
-          document.body.style.overflow = navMobile.classList.contains("active") ? "hidden" : "";
+          const isOpen = navMobile.classList.contains("active");
+          if (isOpen) closeMobileMenu();
+          else openMobileMenu();
         });
         navMobile.querySelectorAll("a").forEach(link => {
-          link.addEventListener("click", () => {
-            hamburger.classList.remove("active");
-            navMobile.classList.remove("active");
-            document.body.style.overflow = "";
-          });
+          link.addEventListener("click", closeMobileMenu);
         });
+        if (navMobileOverlay) {
+          navMobileOverlay.addEventListener("click", closeMobileMenu);
+        }
       }
     </script>
   </body>

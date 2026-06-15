@@ -549,6 +549,8 @@
 
 .export-wrapper {
   width: 1440px;
+  max-width: 100%;
+  overflow-x: hidden;
   min-height: 812px;
   position: relative;
   font-family: var(--font-family-body);
@@ -1526,35 +1528,58 @@ html {
   gap: 8px;
 }
 
-.nav-mobile {
+.nav-mobile-overlay {
   position: fixed;
   inset: 0;
-  z-index: 105;
-  background: rgba(13, 13, 13, 0.97);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: 104;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.35s ease;
 }
 
-.nav-mobile.active {
+.nav-mobile-overlay.active {
   opacity: 1;
+  pointer-events: all;
+}
+
+.nav-mobile {
+  position: fixed;
+  top: 0;
+  left: -280px;
+  width: 280px;
+  height: 100vh;
+  z-index: 105;
+  background: rgba(13, 13, 13, 0.98);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 100px 28px 32px;
+  border-right: 1px solid #2a2a2a;
+  transition: left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+}
+
+.nav-mobile.active {
+  left: 0;
   pointer-events: all;
 }
 
 .nav-mobile-inner {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 24px;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
 }
 
 .nav-mobile-link {
-  font-size: 22px !important;
+  font-size: 18px !important;
   font-weight: 600 !important;
 }
 
@@ -1938,15 +1963,16 @@ html {
 /* ── Responsive ── */
 
 @media (max-width: 1024px) {
-  .about-side {
-    display: none;
-  }
   #sobre .flex.gap-16.items-start {
     flex-direction: column;
     gap: 40px;
   }
   #sobre .flex.gap-8 {
     flex-wrap: wrap;
+  }
+  #sobre .flex.gap-8 .stat-block {
+    flex: 1;
+    min-width: 100px;
   }
   .processos-cards {
     grid-template-columns: repeat(4, 1fr);
@@ -1979,6 +2005,15 @@ html {
 }
 
 @media (max-width: 768px) {
+  .about-side {
+    display: flex !important;
+    width: 100%;
+  }
+  .about-avatar-group,
+  .avatar-frame {
+    width: 180px;
+    height: 180px;
+  }
   section,
   #hero > .relative.z-10,
   footer {
@@ -2074,7 +2109,7 @@ html {
     width: 100%;
   }
   .processos-cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
   .processo-card {
     padding: 16px 12px;
@@ -2083,10 +2118,12 @@ html {
     font-size: 24px;
   }
   .processo-title {
-    font-size: 12px;
+    font-size: 14px;
   }
   .processo-desc {
-    font-size: 10px;
+    font-size: 12px;
+    opacity: 0.8;
+    max-height: 100px;
   }
   .about-avatar-group,
   .avatar-frame {
@@ -2130,9 +2167,6 @@ html {
 @media (max-width: 480px) {
   .hero-title {
     font-size: 28px;
-  }
-  .processos-cards {
-    grid-template-columns: 1fr 1fr;
   }
   .project-card {
     padding: 14px !important;
